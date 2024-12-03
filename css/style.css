@@ -67,7 +67,6 @@ section{
     cursor: pointer;
     color: var(--black);
     display: none;
-
 }
 
 
@@ -78,8 +77,28 @@ section{
 
 
 
-
-
+.footer{
+    background-color:#2d2b36;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+}
+.footer .box-container .box h3{
+    color: var(--white);
+    font-size: 2.5rem;
+    padding-bottom:2rem;
+}
+.footer .box-container .box a{
+    color: var(--light-white);
+    font-size: 1.5rem;
+    padding-bottom:1rem;
+    display: flex;
+}
 
 
 
@@ -101,6 +120,35 @@ section{
         padding: 3rem 2rem;
     }
 }
+@media (max-width: 768px) {
+    #menu-btn {
+      display: inline-block;
+      transition: transform 0.3s linear;
+    }
+  
+    .header .navbar {
+      position: absolute;
+      top: 90%;
+      left: 0;
+      right: 0;
+      background-color: var(--white);
+      border-top:var(--border);
+      padding: 2rem;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+    .header .navbar.active {
+      display: flex;
+    }
+  
+    .header .navbar a {
+      display: block;
+      margin: 1rem 0;
+      text-align: center;
+    }
+  }
+  
 @media (max-width:450px){
 
     html{
