@@ -33,7 +33,85 @@
   </section>
   <!-- header section ends -->
 
+  <!-- home section starts -->
 
+  <section class="home">
+    <div class=" swiper home-slider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide" style="background:url(./images/footer_bg.jpg) no-repeat  " >
+          <div class="content">
+             <span>explore, discover, travel</span>
+             <h3>travel arround the world</h3>
+             <a href="package.php" class="btn">discover more</a>
+          </div>
+        </div>
+
+        <div class=" swiper-slide slide" style="background:url(./images/footer_bg.jpg) no-repeat">
+          <div class="content">
+             <span>explore, discover, travel</span>
+             <h3>discover the new places</h3>
+             <a href="package.php" class="btn">discover more</a>
+          </div>
+        </div>
+
+        <div class=" swiper-slide slide" style="background:url(./images/footer_bg.jpg) no-repeat">
+          <div class="content">
+             <span>explore, discover, travel</span>
+             <h3>make your tour worthwhile</h3>
+             <a href="package.php" class="btn">discover more</a>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+    </div>
+  </section>
+  <!-- home section end -->
+
+  <!-- service section starts -->
+
+  <section class="services">
+    <h1 class="heading-title">Our Services</h1>
+    <div class="box-container">
+
+      <div class="box">
+        <img src="./images/icon_1.png" alt="">
+        <h3>adventure</h3>
+      </div>
+
+      <div class="box">
+        <img src="./images/icon_2.png" alt="">
+        <h3>tour guide</h3>
+      </div>
+
+      <div class="box">
+        <img src="./images/icon_3.png" alt="">
+        <h3>trekking</h3>
+      </div>
+
+      <div class="box">
+        <img src="./images/icon_4.png" alt="">
+        <h3>camp fire</h3>
+      </div>
+
+      <div class="box">
+        <img src="./images/icon_5.png" alt="">
+        <h3>off road</h3>
+      </div>
+
+      <div class="box">
+        <img src="./images/icon_6.png" alt="">
+        <h3>camping</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- service section  end -->
 
   <section class="footer">
     <div class="box-container">
@@ -58,10 +136,10 @@
         <h3>Extra links</h3>
         <a href="#"> <i class="fas fa-phone"></i> +212-345-5678</a>
         <a href="#"> <i class="fas fa-phone"></i> +111-345-5353</a>
-        <a href="#"> <i class="fas fa-envelope"></i>travelandtour@gmail.com</a>
+        <a href="#"> <i class="fas fa-envelope"></i>travel@gmail.com</a>
         <a href="#"> <i class="fas fa-map"></i>mubai, <india-4000104></india-4000104></a>
       </div>
-      
+
       <div class="box">
         <h3>follow us</h3>
         <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>facebook</a>
@@ -70,6 +148,8 @@
         <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i>linkedin</a>
       </div>
     </div>
+
+    <div class="credit">Created by <span>Ramesh Peshala</span> | all right reserved!</div>
 
   </section>
 
