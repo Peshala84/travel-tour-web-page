@@ -39,34 +39,34 @@
     <div class=" swiper home-slider">
       <div class="swiper-wrapper">
 
-        <div class="swiper-slide slide" style="background:url(./images/footer_bg.jpg) no-repeat  " >
+        <div class="swiper-slide slide" style="background:url(./images/head_image_01.jpg) no-repeat  ">
           <div class="content">
-             <span>explore, discover, travel</span>
-             <h3>travel arround the world</h3>
-             <a href="package.php" class="btn">discover more</a>
+            <span>explore, discover, travel</span>
+            <h3>travel arround the world</h3>
+            <a href="package.php" class="btn">discover more</a>
           </div>
         </div>
 
-        <div class=" swiper-slide slide" style="background:url(./images/footer_bg.jpg) no-repeat">
+        <div class=" swiper-slide slide" style="background:url(./images/head_image_02.jpg) no-repeat">
           <div class="content">
-             <span>explore, discover, travel</span>
-             <h3>discover the new places</h3>
-             <a href="package.php" class="btn">discover more</a>
+            <span>explore, discover, travel</span>
+            <h3>discover the new places</h3>
+            <a href="package.php" class="btn">discover more</a>
           </div>
         </div>
 
-        <div class=" swiper-slide slide" style="background:url(./images/footer_bg.jpg) no-repeat">
+        <div class=" swiper-slide slide" style="background:url(./images/head_image_03.jpg) no-repeat">
           <div class="content">
-             <span>explore, discover, travel</span>
-             <h3>make your tour worthwhile</h3>
-             <a href="package.php" class="btn">discover more</a>
+            <span>explore, discover, travel</span>
+            <h3>make your tour worthwhile</h3>
+            <a href="package.php" class="btn">discover more</a>
           </div>
         </div>
 
       </div>
-      
+
       <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+      <div class="swiper-button-prev"></div>
 
     </div>
   </section>
@@ -112,6 +112,68 @@
   </section>
 
   <!-- service section  end -->
+
+  <!-- home about section starts -->
+  <section class="home-about">
+    <div class="image">
+      <img src="./images/about_image_01.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>About us</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ipsam repudiandae incidunt nostrum itaque est ipsum ipsa eius suscipit
+        consequatur? Neque nobis facilis debitis dolorem corrupti eaque porro ea aliquid!</p>
+      <a href="about.php" class="btn">read more</a>
+    </div>
+  </section>
+  <!-- home about section ends -->
+
+  <!-- home package section starts -->
+
+  <section class="home-packages">
+    <h1 class="heading-title">our packages</h1>
+    <div class="box-container">
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/footer_bg.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/footer_bg.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/footer_bg.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="load-more" > <a href="package.php" class="btn">load more</a></div>
+
+  </section>
+
+
+  <!-- home package section ends -->
 
   <section class="footer">
     <div class="box-container">
