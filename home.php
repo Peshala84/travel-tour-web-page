@@ -172,8 +172,22 @@
 
   </section>
 
-
   <!-- home package section ends -->
+
+  <!-- home offer section starts -->
+      
+  <section class="home-offer">
+    <div class="content">
+      <h3>upto 50% off</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero 
+        suscipit veritatis necessitatibus accusamus qui at, eum 
+        expedita illum! Ex, maxime.
+      </p>
+      <a href="book.php" class="btn">book now</a>
+    </div>
+  </section>
+
+  <!-- home offer section ends -->
 
   <section class="footer">
     <div class="box-container">
