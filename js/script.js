@@ -20,19 +20,34 @@ var swiper = new Swiper(".home-slider", {
 });
 
 var swiper = new Swiper(".reviews-slider", {
+
+  grabCursor: true,
   loop: true,
   spaceBetween: 20,
   autoHeight: true,
-  grabCursor: true,
   breakpoints: {
-    640: {
+    0: {
       slidesPerView: 1,
     },
-    768: {
+    700: {
       slidesPerView: 2,
     },
-    1024: {
+    1000: {
       slidesPerView: 3,
     },
   },
 });
+
+let loadMoreBtn = document.querySelector('.packages .load-more .btn');
+let currentItems = 3;
+
+loadMoreBtn.onclick = () => {
+  let boxes = [...document.querySelectorAll('.packages .box-container .box')];
+  for(var i= currentItems; i < currentItems + 3; i++){
+      boxes[i].style.display = 'inline-block';
+  };
+  currentItems += 3;
+  if(currentItems >= boxes.length){
+      loadMoreBtn.style.display = 'none';
+  }
+}
