@@ -32,9 +32,154 @@
     <div id="menu-btn" class="fas fa-bars"></div>
   </section>
   <!-- header section ends -->
-<div class="heading" style="">
+  <div class="heading" style="background:url(./images/footer_bg.jpg)">
     <h1>Package</h1>
-</div>
+  </div>
+
+  <!-- packages section starts -->
+
+  <section class="packages">
+    <h1 class="heading-title">top destinations</h1>
+    <div class="box-container">
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/head_image_01.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto reiciendis inventore accusantium </p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="load-more"><span class="btn">load-more</span></div>
+  </section>
+
+  <!-- packages section ends -->
 
 
   <section class="footer">
@@ -63,7 +208,7 @@
         <a href="#"> <i class="fas fa-envelope"></i>travel@gmail.com</a>
         <a href="#"> <i class="fas fa-map"></i>mubai, <india-4000104></india-4000104></a>
       </div>
-      
+
       <div class="box">
         <h3>follow us</h3>
         <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>facebook</a>
