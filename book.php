@@ -22,7 +22,7 @@
 
   <!-- header section starts -->
   <section class="header">
-    <a href="home.php" class="logo">travel.</a>
+    <a href="home.php" class="logo">travel</a>
     <nav class="navbar">
       <a href="home.php">home</a>
       <a href="about.php">About</a>
@@ -32,9 +32,63 @@
     <div id="menu-btn" class="fas fa-bars"></div>
   </section>
   <!-- header section ends -->
-<div class="heading" style="">
-    <h1>Book</h1>
-</div>
+  <div class="heading" style="background:url(./images/book_bow.jpg)">
+    <h1>Book now</h1>
+  </div>
+  <!-- booking section starts -->
+
+  <section class="booking">
+    <h1 class="heading-title">book your trip!</h1>
+
+    <form action="book_form.php" method="post" class="book-form">
+      <div class="flex">
+
+        <div class="inputBox">
+          <span>name : </span>
+          <input type="text" placeholder="Enter your name" name="name" required>
+        </div>
+
+        <div class="inputBox">
+          <span>email : </span>
+          <input type="email" placeholder="Enter your email" name="email" required>
+        </div>
+
+        <div class="inputBox">
+          <span>phone : </span>
+          <input type="number" placeholder="Enter your number" name="number" required>
+        </div>
+
+        <div class="inputBox">
+          <span>address : </span>
+          <input type="text" placeholder="Enter your address" name="address" required>
+        </div>
+
+        <div class="inputBox">
+          <span>where to : </span>
+          <input type="text" placeholder="place you want to visit" name="location" required>
+        </div>
+
+        <div class="inputBox">
+          <span>how many : </span>
+          <input type="number" placeholder="number of guests" name="guests" required>
+        </div>
+
+        <div class="inputBox">
+          <span>arrivals : </span>
+          <input type="date" name="arrivals" required>
+        </div>
+
+        <div class="inputBox">
+          <span>leaving : </span>
+          <input type="date" name="leaving" required>
+        </div>
+
+      </div>
+      <input type="submit" value="submit" class="btn" name="send">
+    </form>
+  </section>
+
+  <!-- booking section starts -->
 
 
   <section class="footer">
@@ -63,7 +117,7 @@
         <a href="#"> <i class="fas fa-envelope"></i>travel@gmail.com</a>
         <a href="#"> <i class="fas fa-map"></i>mubai, <india-4000104></india-4000104></a>
       </div>
-      
+
       <div class="box">
         <h3>follow us</h3>
         <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>facebook</a>
