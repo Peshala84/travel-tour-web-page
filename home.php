@@ -22,7 +22,7 @@
 
   <!-- header section starts -->
   <section class="header">
-    <a href="home.php" class="logo">travel.</a>
+    <img src="./images/logo.jpg" alt="" style="width:80px;">
     <nav class="navbar">
       <a href="home.php">home</a>
       <a href="about.php">About</a>
@@ -135,7 +135,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/footer_bg.jpg" alt="">
+          <img src="./images/travel_image_01.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -146,7 +146,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/footer_bg.jpg" alt="">
+          <img src="./images/travel_image_02.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -157,7 +157,18 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/footer_bg.jpg" alt="">
+          <img src="./images/travel_image_03.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>adventure & tour</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          <a href="book.php" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/travel_image_04.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
