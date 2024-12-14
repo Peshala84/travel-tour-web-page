@@ -32,7 +32,7 @@
     <div id="menu-btn" class="fas fa-bars"></div>
   </section>
   <!-- header section ends -->
-<div class="heading" style="background:url(./images/footer_bg.jpg)">
+<div class="heading" style="background:url(./images/about.jpg)">
     <h1>About Us</h1>
 </div>
 
@@ -40,7 +40,7 @@
 
    <section class="about">
     <div class="image">
-    <img src="./images/footer_bg.jpg" alt="">
+    <img src="./images/about_image_01.jpg" alt="">
     </div>
     <div class="content">
       <h3>why choose us?</h3>
