@@ -47,16 +47,18 @@ section {
         transform: scale(0);
     }
 }
-.heading{
+
+.heading {
     background-size: cover !important;
     background-position: center !important;
-    padding-top: 7rem;
+    padding-top: 6rem;
     padding-bottom: 12rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.heading h1{
+
+.heading h1 {
     font-size: 4rem;
     text-transform: uppercase;
     color: var(--white);
@@ -68,8 +70,8 @@ section {
     background: var(--black);
     margin-top: 1rem;
     color: var(--white);
-    font-size: 1.2rem;
-    padding: 1rem 3rem;
+    font-size: 1rem;
+    padding: .7rem 2.6rem;
     cursor: pointer;
 }
 
@@ -135,7 +137,8 @@ section {
     justify-content: center;
     background-size: cover !important;
     background-position: center !important;
-    min-height: 30rem;
+    min-height: 25rem;
+
 }
 
 .home .slide .content {
@@ -225,21 +228,24 @@ section {
     font-size: 1.0rem;
     padding-top: 1rem;
 }
-.home-packages{
+
+.home-packages {
     background: var(--light-bg);
 }
 
 .home-packages .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: .5rem;
 }
-.home-packages .box-container .box{
-    border:var(--border);
+
+.home-packages .box-container .box {
+    border: var(--border);
     box-shadow: var(--box-shadow);
     background: var(--white);
 }
-.home-packages .box-container .box:hover .image img{
+
+.home-packages .box-container .box:hover .image img {
     transform: scale(1.1);
 }
 
@@ -254,95 +260,115 @@ section {
     object-fit: cover;
     transition: .2s linear;
 }
-.home-packages .box-container .box .content{
-    padding: 1.0rem ;
-    text-align: center ;
+
+.home-packages .box-container .box .content {
+    padding: 1.0rem;
+    text-align: center;
 }
-.home-packages .box-container .box .content h3{
+
+.home-packages .box-container .box .content h3 {
     font-size: 1.5rem;
     color: var(--black);
 }
-.home-packages .box-container .box .content p{
+
+.home-packages .box-container .box .content p {
     font-size: 1.0rem;
     color: var(--light-black);
     line-height: 1.5;
     padding: 0.5rem 0;
 }
-.home-packages .load-more{
-     text-align: center;
-     margin-top: 2rem;
+
+.home-packages .load-more {
+    text-align: center;
+    margin-top: 2rem;
 }
-.home-offer{
+
+.home-offer {
     text-align: center;
 }
-.home-offer .content{
+
+.home-offer .content {
     max-width: 50rem;
     margin: 0 auto;
 }
-.home-offer .content h3{
+
+.home-offer .content h3 {
     font-size: 3rem;
     text-transform: uppercase;
     color: var(--black);
 }
-.home-offer .content p{
+
+.home-offer .content p {
     font-size: 1.2rem;
     color: var(--light-black);
     padding: 1rem 0;
     line-height: 1.5;
 }
 
-.about{
+.about {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
 }
-.about .image{
+
+.about .image {
     flex: 1 1 10rem;
 }
-.about .image img{
-    width: 80%;
+
+.about .image img {
+    width: 100%;
 }
-.about .content{
-    flex: 1 1 15rem;
+
+.about .content {
+    flex: 1 1 35rem;
     text-align: center;
 }
-.about .content h3{
+
+.about .content h3 {
     font-size: 2rem;
     color: var(--black);
 }
-.about .content p{
+
+.about .content p {
     font-size: 1.5rem;
     color: var(--light-black);
     padding: 1rem 0;
     line-height: 1.5;
 }
-.about .content .icons-container{
+
+.about .content .icons-container {
     margin-top: 1rem;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1.4rem;
-    align-items: flex-end; 
+    gap: 1rem;
+    align-items: flex-end;
 }
-.about .content .icons-container .icons{
-   background: var(--light-bg);
-   padding: 1.2rem;
+
+.about .content .icons-container .icons {
+    background: var(--light-bg);
+    padding: 1.2rem;
 }
-.about .content .icons-container .icons i{
+
+.about .content .icons-container .icons i {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: var(--main-color);
 }
-.about .content .icons-container .icons span{
+
+.about .content .icons-container .icons span {
     font-size: 1.2rem;
     color: var(--light-black);
     display: block;
 }
-.reviews{
+
+.reviews {
     background: var(--light-bg);
 
 }
-.reviews .slide{
+
+.reviews .slide {
     padding: 2rem;
     text-align: center;
     border: var(--border);
@@ -351,29 +377,35 @@ section {
     -webkit-user-select: none;
     user-select: none;
 }
-.reviews .slide .stars{
+
+.reviews .slide .stars {
     padding-bottom: .5rem;
 }
-.reviews .slide .stars i{
+
+.reviews .slide .stars i {
     font-size: 1.5rem;
     color: var(--main-color);
 }
-.reviews .slide p{
+
+.reviews .slide p {
     font-size: 1rem;
     color: var(--light-black);
     line-height: 1.5;
     padding: 1rem 0;
 }
-.reviews .slide h3{
+
+.reviews .slide h3 {
     font-size: 1.5rem;
     color: var(--black);
 }
-.reviews .slide span{
+
+.reviews .slide span {
     font-size: 1.5rem;
     color: var(--main-color);
     display: block;
 }
-.reviews .slide img{
+
+.reviews .slide img {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
@@ -385,18 +417,20 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
 }
-.packages .box-container .box{
-    border:var(--border);
+
+.packages .box-container .box {
+    border: var(--border);
     box-shadow: var(--box-shadow);
     background: var(--white);
     display: none;
 }
+
 .packages .box-container .box:nth-child(1),
 .packages .box-container .box:nth-child(2),
 .packages .box-container .box:nth-child(3),
 .packages .box-container .box:nth-child(4),
 .packages .box-container .box:nth-child(5),
-.packages .box-container .box:nth-child(6){
+.packages .box-container .box:nth-child(6) {
 
     display: inline-block;
 }
@@ -412,27 +446,69 @@ section {
     object-fit: cover;
     transition: .2s linear;
 }
-.packages .box-container .box:hover .image img{
+
+.packages .box-container .box:hover .image img {
     transform: scale(1.1);
 }
-.packages .box-container .box .content{
-    padding: 1.0rem ;
-    text-align: center ;
+
+.packages .box-container .box .content {
+    padding: 1.0rem;
+    text-align: center;
 }
-.packages .box-container .box .content h3{
+
+.packages .box-container .box .content h3 {
     font-size: 1.4rem;
     color: var(--black);
 }
-.packages .box-container .box .content p{
+
+.packages .box-container .box .content p {
     font-size: 1.0rem;
     color: var(--light-black);
     line-height: 1.5;
     padding: 0.5rem 0;
 }
-.packages .load-more{
-     text-align: center;
-     margin-top: 2rem;
+
+.packages .load-more {
+    text-align: center;
+    margin-top: 2rem;
 }
+
+.booking .book-form {
+    padding: 1.5rem;
+    background: var(--light-bg);
+}
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.booking .book-form .flex .inputBox{
+    flex: 1 1 31rem;
+}
+.booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding: .8rem 1rem;
+    font-size: 1rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 1rem;
+    border: var(--border);
+}
+.booking .book-form .flex .inputBox input:focus{
+    background: var(--black);
+    color: var(--white);
+}
+.booking .book-form .flex .inputBox input:focus::placeholder{
+    color: var(--light-white);
+}
+.booking .book-form .flex .inputBox span{
+    font-size: 1rem;
+    color: var(--light-black);
+}
+.booking .book-form .btn{
+    margin-top: 2rem;
+}
+
 
 
 
@@ -501,7 +577,7 @@ section {
 }
 
 .home-about .content {
-    flex: 1 1 25rem;
+    flex: 1 1 35rem;
     padding: 2rem;
     background: var(--light-bg);
 }
@@ -517,7 +593,8 @@ section {
     line-height: 1.5;
     color: var(--black);
 }
-.home-packages{
+
+.home-packages {
     background: var(--light-bg);
 }
 
@@ -545,6 +622,10 @@ section {
 }
 
 @media (max-width: 768px) {
+
+    .heading h1{
+        font-size: 2rem;
+    }
     #menu-btn {
         display: inline-block;
         transition: transform 0.3s linear;
