@@ -32,7 +32,7 @@
     <div id="menu-btn" class="fas fa-bars"></div>
   </section>
   <!-- header section ends -->
-  <div class="heading" style="background:url(./images/footer_bg.jpg)">
+  <div class="heading" style="background:url(./images/book.jpg)">
     <h1>Package</h1>
   </div>
 
@@ -44,7 +44,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_01.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -55,7 +55,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_02.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -66,7 +66,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_03.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -77,7 +77,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_04.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -88,7 +88,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_05.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -99,7 +99,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_06.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -110,7 +110,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_07.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -121,7 +121,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_08.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -132,7 +132,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_09.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -143,7 +143,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_10.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -154,7 +154,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_11.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
@@ -165,7 +165,7 @@
 
       <div class="box">
         <div class="image">
-          <img src="./images/head_image_01.jpg" alt="">
+          <img src="./images/travel_image_12.jpg" alt="">
         </div>
         <div class="content">
           <h3>adventure & tour</h3>
